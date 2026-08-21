@@ -2,11 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
-    flex: 1;
     flex-direction: row;
-    height: 80%
+    height: 100%;
     align-items: center;
-    justify-content: center;
 `;
 
 export const TextHomeContainer = styled.div`
