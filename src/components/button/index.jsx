@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import { Container,Text } from './styled-wrappers';
 
@@ -10,12 +9,5 @@ function Button({width, height, text, onClickHandler}) {
       </Container>
     );
 }
-
-Button.propTypes = {
-    width: PropTypes.string,
-    height: PropTypes.string,
-    text: PropTypes.string.isRequired,
-    onClickHandler: PropTypes.func
-  };
 
 export default Button;
