@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import { Container, ContainerInputLine, Title } from './styled-wrappers';
 import InputText from '../../../components/input-text';
@@ -25,10 +24,5 @@ function InputTextForm({ title, checkboxNames }) {
       </Container>
     );
 }
-
-InputTextForm.propTypes = {
-    title: PropTypes.string.isRequired,
-    checkboxNames: PropTypes.array
-};
 
 export default InputTextForm;

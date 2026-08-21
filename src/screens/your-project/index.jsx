@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, TitleContainer, Title, CheckBoxContainer } from './styled-wrappers';
+import { Container, TitleContainer, Title } from './styled-wrappers';
 import CheckBoxForm from './checkbox-form';
 import InputTextForm from './input-text-form';
 
